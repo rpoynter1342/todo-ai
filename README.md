@@ -1,5 +1,29 @@
 # Northspyre Take-Home Project for React & Flask Web Application
 
+## Setup
+
+You will want to cd into the backend folder and then run:
+pip install -r requirements.txt
+pip install dotenv
+
+I will provide a key for you to use with openai. Until you have the key, running the server will not work.
+
+now you can run the server by using:
+python run.py
+
+In a new terminal, navigate to the folder frontend and type:
+npm install
+
+you can then type:
+npm run start
+
+to start the frontend
+
+## File Architecture
+
+The project is split into two main parts, a frontend and backend. Our backend has a controllers folder where we have tasks.py, containing all the routes for this project. We also have a models.py file that contains a model of the db.
+On the front end, we have a basic react app. In our src folder, we have a components folder to split up the components with the rest of the project.
+
 ## Welcome!
 
 Thank you for participating in our engineering hiring process! This take-home test is designed to assess your practical skills in developing web applications using React and Flask. You are encouraged to use all of your preferred coding tools including and especially ChatGPT or any other AI-based coding assistants you like.
